@@ -1,0 +1,49 @@
+
+django-admin startproject foodapp
+python manage.py startapp user
+
+python manage.py startapp ingredient
+python manage.py startapp nutrition
+python manage.py startapp product
+python manage.py startapp user
+python manage.py startapp unit
+python manage.py startapp recipe
+python manage.py startapp foodplan
+python manage.py startapp feature
+python manage.py startapp shoppinglist
+
+python manage.py migrate
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py makemigrations
+python manage.py showmigrations
+
+
+python manage.py deleteapp user
+
+
+
+
+
+Dump DB into JSON for FIXTURES:
+###############################
+python manage.py dumpdata > initial_data.json
+
+./manage.py dumpdata admin > admin.json
+./manage.py dumpdata admin.logentry > logentry.json
+
+python manage.py loaddata initial_data.json
+
+python manage.py dbshell
+    .tables
+    .exit
+
+python manage.py startapp meetings
+
+
+########## testing
+Achtung __init__.py muss im root folder wo manage.py ist gelöscht werden ansonsten gehen die Tests nicht
+python manage.py test
+coverage run --omit='*/venv/*' manage.py test
+coverage report
+

@@ -1,0 +1,11 @@
+# CHANGE HISTORY
+# v36_Start Frontend Dev
+#    https://tutorial.djangogirls.org/de/django_forms/
+#    https://mobiforge.com/design-development/build-a-mobile-and-desktop-friendly-application-django-15-minutes
+#    https://www.pythonanywhere.com/registration/register/beginner/
+
+#Django
+django
+
+
+
